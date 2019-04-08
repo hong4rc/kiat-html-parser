@@ -1,4 +1,4 @@
-# Fast HTML Parser [![NPM version](https://badge.fury.io/js/node-html-parser.png)](http://badge.fury.io/js/node-html-parser) [![Build Status](https://travis-ci.org/taoqf/node-fast-html-parser.svg?branch=master)](https://travis-ci.org/taoqf/node-fast-html-parser)
+# Fast HTML Parser [![NPM version](https://badge.fury.io/js/kiat-parser.png)](http://badge.fury.io/js/kiat-parser) [![Build Status](https://travis-ci.org/taoqf/node-fast-html-parser.svg?branch=master)](https://travis-ci.org/taoqf/node-fast-html-parser)
 
 Fast HTML Parser is a _very fast_ HTML parser. Which will generate a simplified
 DOM tree, with basic element query support.
@@ -11,7 +11,7 @@ no closing `<li>`, `<td>` etc).
 ## Install
 
 ```shell
-npm install --save node-html-parser
+npm install --save kiat-parser
 ```
 
 ## Performance
@@ -34,7 +34,7 @@ Tested with [htmlparser-benchmark](https://github.com/AndreasMadsen/htmlparser-b
 ## Usage
 
 ```ts
-import { parse } from 'node-html-parser';
+import { parse } from 'kiat-parser';
 
 const root = parse('<ul id="list"><li>Hello World</li></ul>');
 
@@ -60,7 +60,7 @@ root.toString();	// <li>Hello World</li>
 ```
 
 ```js
-var HTMLParser = require('node-html-parser');
+var HTMLParser = require('kiat-parser');
 
 var root = HTMLParser.parse('<ul id="list"><li>Hello World</li></ul>');
 ```
