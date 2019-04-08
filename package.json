@@ -7,7 +7,8 @@
   "scripts": {
     "clean": "del-cli ./dist/",
     "ts:cjs": "tsc -m commonjs",
-    "build": "npm run clean && npm run ts:cjs",
+    "test": "npm run clean && npm run ts:cjs",
+    "prepack": "npm run test",
     "dev": "tsc -w",
     "pretest": "tsc -m commonjs"
   },
