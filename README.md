@@ -1,4 +1,4 @@
-# Fast HTML Parser [![NPM version](https://badge.fury.io/js/kiat-parser.png)](http://badge.fury.io/js/kiat-parser) [![Build Status](https://travis-ci.org/taoqf/node-fast-html-parser.svg?branch=master)](https://travis-ci.org/taoqf/node-fast-html-parser)
+# Fast HTML Parser [![NPM version](https://badge.fury.io/js/kiat-parser.png)](http://badge.fury.io/js/kiat-parser) [![Build Status](https://travis-ci.com/Hongarc/kiat-parser.svg?branch=master)](https://travis-ci.com/Hongarc/kiat-parser)
 
 Fast HTML Parser is a _very fast_ HTML parser. Which will generate a simplified
 DOM tree, with basic element query support.
