@@ -1,6 +1,6 @@
-# kiat-parser [![NPM version](https://badge.fury.io/js/kiat-parser.png)](http://badge.fury.io/js/kiat-parser) [![Build Status](https://travis-ci.com/Hongarc/kiat-parser.svg?branch=master)](https://travis-ci.com/Hongarc/kiat-parser)
+# kiat-html-parser [![NPM version](https://badge.fury.io/js/kiat-html-parser.png)](http://badge.fury.io/js/kiat-html-parser) [![Build Status](https://travis-ci.com/Hongarc/kiat-html-parser.svg?branch=master)](https://travis-ci.com/Hongarc/kiat-html-parser)
 
-**kiat-parser** is a fork of node-html-parser (a fork of Fast HTML Parser-a _very fast_ HTML parser). Which will generate a simplified
+**kiat-html-parser** is a fork of node-html-parser (a fork of Fast HTML Parser-a _very fast_ HTML parser). Which will generate a simplified
 DOM tree, with basic element query support.
 
 Per the design, it intends to parse massive HTML files in lowest price, thus the
@@ -11,7 +11,7 @@ no closing `<li>`, `<td>` etc).
 ## Install
 
 ```shell
-npm install --save kiat-parser
+npm install --save kiat-html-parser
 ```
 
 ## Performance
@@ -34,7 +34,7 @@ Tested with [htmlparser-benchmark](https://github.com/AndreasMadsen/htmlparser-b
 ## Usage
 
 ```ts
-import { parse } from 'kiat-parser';
+import { parse } from 'kiat-html-parser';
 
 const root = parse('<ul id="list"><li>Hello World</li></ul>');
 
@@ -60,7 +60,7 @@ root.toString();	// <li>Hello World</li>
 ```
 
 ```js
-var HTMLParser = require('kiat-parser');
+var HTMLParser = require('kiat-html-parser');
 
 var root = HTMLParser.parse('<ul id="list"><li>Hello World</li></ul>');
 ```

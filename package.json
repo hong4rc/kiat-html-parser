@@ -1,5 +1,5 @@
 {
-  "name": "kiat-parser",
+  "name": "kiat-html-parser",
   "version": "1.2.0",
   "description": "A very fast HTML parser, generating a simplified DOM, with basic element query support.",
   "main": "dist/index.js",
@@ -31,10 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Hongarc/kiat-parser.git"
+    "url": "https://github.com/Hongarc/kiat-html-parser.git"
   },
   "bugs": {
-    "url": "https://github.com/Hongarc/kiat-parser/issues"
+    "url": "https://github.com/Hongarc/kiat-html-parser/issues"
   },
-  "homepage": "https://github.com/Hongarc/kiat-parser"
+  "homepage": "https://github.com/Hongarc/kiat-html-parser"
 }
