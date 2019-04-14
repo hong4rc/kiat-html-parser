@@ -1,4 +1,4 @@
-# kiat-html-parser [![NPM version](https://badge.fury.io/js/kiat-html-parser.png)](http://badge.fury.io/js/kiat-html-parser) [![Build Status](https://travis-ci.com/Hongarc/kiat-html-parser.svg?branch=master)](https://travis-ci.com/Hongarc/kiat-html-parser)
+# kiat-html-parser [![NPM version](https://img.shields.io/npm/v/kiat-html-parser.svg)](https://www.npmjs.com/package/kiat-html-parser) [![Build Status](https://travis-ci.com/Hongarc/kiat-html-parser.svg?branch=master)](https://travis-ci.com/Hongarc/kiat-html-parser)
 
 **kiat-html-parser** is a fork of node-html-parser (a fork of Fast HTML Parser-a _very fast_ HTML parser). Which will generate a simplified
 DOM tree, with basic element query support.
