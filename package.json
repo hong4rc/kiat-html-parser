@@ -1,6 +1,6 @@
 {
   "name": "kiat-html-parser",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A very fast HTML parser, generating a simplified DOM, with basic element query support.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,8 +23,8 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "del-cli": "^1.1.0",
-    "typescript": "^3.4.2"
+    "del-cli": "^3.0.1",
+    "typescript": "^3.9.7"
   },
   "directories": {
     "test": "test"
